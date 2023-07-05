@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="icon"href="lal.jpg" type="image/jpeg">
+    <!--<style>
+        body{
+            background-color: powderblue;
+        }
+    </style>-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--<script>
+    alert("hello");
+</script>--> 
+<script src="js/scripts.js"></script>
+<noscript>please enable javascript</noscript>
+</head>
+<body>
+    <img src="images/download.jpg" alt="logo">
+    <!--<marquee>this is ram</marquee>-->
+    <!--order list-->
+    <ol start="10">
+        <li>coffe</li>
+        <li>milk</li>
+        <li>tea</li>
+    </ol>
+    <ol type="A">
+        <li>coffe</li>
+        <li>milk</li>
+        <li>tea</li>
+    </ol>
+    <ol type="A">
+        <li>coffe
+            <ol type="I">
+                <li>black coffe</li>
+                <li>mock</li>
+            </ol>
+        </li>
+        <li>milk</li>
+        <li>tea</li>
+    </ol>
+    <!--unorderlist(bullet type form ) both order and unorder combined useg-->
+    <ul>
+        <li>coffe
+            <ul type="I">
+                <li>black coffe</li>
+                <li>mock</li>
+            </ul>
+        </li>
+        <li>milk</li>
+        <li>tea</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>coffe
+            <ul type="I">
+                <li>black coffe</li>
+                <li>mock</li>
+            </ul>
+        </li>
+        <li>milk</li>
+        <li>tea</li>
+    </ul>
+    <!--description list(not order and not icon)-->
+    <dl>
+        <dt>coffe</dt>
+        <dd>-black hot drink</dd>
+        <dt>milk</dt>
+        <dd>-white cold drink</dd>
+    </dl>
+    <!--html table-->
+    <table border="1">
+        <tr>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 4</td>
+            <td>data 5</td>
+            <td>data 6</td>
+        </tr>
+        <tr>
+            <td>data 7</td>
+            <td>data 8</td>
+            <td>data 9</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>table example</caption>
+        <tr>
+            <th>row 1</th>
+            <td>data 1</td>
+            <td><img src="images/download.jpg"></td>
+            <td colspan="2"><a href="https://www.google.com">google</a></td>
+            
+        </tr>
+        <tr>
+            <th rowspan="3 ">row 2</th>
+            <td>data 5</td>
+            <td>data 6</td>
+            <td>data 7</td>
+            <td>data 8</td>
+        </tr>
+        <tr>
+            <td>data 9</td>
+            <td>data 10</td>
+            <td>data 11</td>
+            <td> data 12</td>
+        </tr>  
+        <tr>
+            <td>data 13</td>
+            <td>data 14</td>
+            <td>data 15</td>
+            <td> data 16</td>
+        </tr> 
+    </table>
+    <br><br><br>
+    <table border="1">
+        <thead style="color: red;">
+        <tr>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </tr>
+    </thead>
+    <tbody style="color: green ;">
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 4</td>
+            <td>data 5</td>
+            <td>data 6</td>
+        </tr>
+        <tr>
+            <td>data 7</td>
+            <td>data 8</td>
+            <td>data 9</td>
+        </tr>
+    </tbody>
+    <tfoot style="color: red;">
+        <tr>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </tr>
+    </tfoot>
+    </table>
+    <!--nested  table-->
+    <table border="1">
+        <tr>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 4</td>
+            <td>
+                <table border="2  ">
+                    <tr>
+                        <td>column 1</td>
+                        <td>column 2</td>
+                    </tr>
+                    <tr>
+                        <td>column 3</td>
+                        <td> column 4</td>
+                    </tr>
+                </table>
+            </td>
+            <td>data 6</td>
+        </tr>
+        <tr>
+            <td>data 7</td>
+            <td>data 8</td>
+            <td>data 9</td>
+        </tr>
+    </table>
+     <!--div and span-->
+     <!--very very important  -->
+     <!--div-->
+      <div style="border:1px solid red;">random text</div>
+      <div>random text</div>
+      <!--span-->
+      <span style="border: 1px solid red;">random text</span>
+      <span>random text</span>
+      <!--iframe-->
+      <br><br><br>
+      <iframe>src="https://www.bbc.com/hindi" height="500" width="1000"</iframe>
+      <br><br>
+      <!--Audio-->
+      <br>
+      <br>
+      <audio controls>
+            <source src="audio.mp3"type="audio/mpeg"> 
+      </audio>
+      <!--video-->
+      <video controls>
+          <source src="video.mp4" type="video/mp4 " width="1px" height="5 ">
+      </video>
+      <!--Embed  pdf-->
+          <!--embed-->
+        <!--  <embed src="beltron.pdf" type="application/pdf" height="500" width="1000">-->
+            <br><br>
+          <!--iframe-->
+          <!--<iframe src="beltron.pdf" width="500" height="1000"></iframe>-->
+          <!--object -->
+          <object data="beltron.pdf" width="200" height="400" type="application/pdf"></object>
+          <!--Embed youtube -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6-8Tl0JXCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+          <br><br><br>
+          <!--embed google map-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28021.515402678808!2d77.21226229501225!3d28.60909256310019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1687924916462!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!--html Entities-->
+          <!--name-->
+          <br>  
+          &lt;div&gt;
+          <!--number-->
+          &#60;div&#62;
+          <!--html symbols-->
+          &copy;
+          <!--Emoji is in html-->
+          &#128577;
+          <!--semantic Elements--> 
+          <img src="lal.jpg" usemap="#image_map">
+<br><br>
+<img src="lal.jpg" length="1px"width=
+"1px" usemap="#image_map">
+<map name="image_map">
+      <area alt="laptop" title="laptop" href="https://www.amazon.in/s?k=laptop&i=computers&crid=AJL32Q0BN7ZK&sprefix=la%2Ccomputers%2C353&ref=nb_sb_ss_ts-doa-p_1_2" coords="1564,1015,3889,3011" shape="rect">
+</map>
+<!--form-->
+<form method="get/POST".actions="submit.php ">
+    <div>
+        name:
+    <input type="text">
+</div> 
+<div>
+    <br>
+    <input type="  submit " value="submit form">
+</div>
+<div>
+    text:
+    <input type="text"><br>
+</div>
+<div>
+    submit button:
+    <input type="submit"><br>
+</div> 
+<div>
+    colour:
+    <input type="color"><br>
+</div> 
+<div>
+    Email:
+    <input type="email"><br>
+</div>
+<div>
+    Date:
+    <input type="date"><br>
+</div>
+<div>
+    Hidden
+    <input type="hidden"  value="Delhi "><br>
+</div>
+<div>
+    Number:
+    <input type="number"><br>
+</div>
+<div>
+    Password:
+    <input type="password"><br>
+</div>
+<div>
+    Reset:
+    <input type="reset"><br>
+</div>
+<div>
+    Time:
+    <input type="time"><br>
+</div>
+<div>
+    Url
+    <input type="url"><br>
+</div>
+<div>
+    Range:
+    <input type="range" min="200" max="50000"><br>
+</div>
+
+</form> 
+<!--form file upload--> 
+   <form enctype="multipart/form-data"> 
+         <input type="file">
+   </form>
+<br><br><br><br><br><br><br><br><br>
+  <!--input Attributes-->
+<form>
+    <input type="text" placeholder="Enter Name" required> 
+    <input type="number" value="1" step="2">
+     <input type="text" autofocus>
+     <input type="text" autofocus>
+     <input type="text" autocomplete="on">
+     <input type="text" name="First_name ">
+</form>
+<br><br>
+<!--textarea-->
+<textarea rows="20"cols="50" placeholder="Enter description"></textarea>
+<input type="image" src="download1.jpg"length="100"width="100">
+<!--form select option-->
+<br><br><br><br>
+<form>
+    <select>
+      <optgroup label="Car">
+           <option value="audi">audio </option>
+           <option value="audi" selected>tata </option>
+            <option value="audi"> mehendira</option>
+           <option value="audi"> kia</option>
+       </optgroup>
+       <optgroup label="Sports">
+          <option value="audi">Cricket </option>
+         <option value="audi">Hockey </option>
+         <option value="audi">football </option>
+        </optgroup>
+        
+    </select>
+</form>
+<!--radio button-->
+<form>
+    <input type="radio" value="male " name="gender">male
+    <input type="radio"value="female" name="gender"checked>Female
+    <input type="radio" name="gender">Other
+</form>
+<!--checkbox-->
+<form>
+<input type="checkbox" name="sports">Cricket
+<input type="checkbox" name="sports">Hockey
+<input type="checkbox" name="sports">football
+</form>
+<!--dataList-->
+<form>
+    search<input type="text" list="search">
+    <datalist id="search">
+         <option value="mango">
+         <option value="banana">
+        <option value="orange">
+        </option value="car">
+    </datalist>
+    <input type="submit" value="search">
+</form>
+<!--Label fieldset and Legend -->
+<form>
+    <div>
+        <label for="fname">First Name</label>
+       <input type="text" name="First_name" id="fname">
+   </div>
+<div>
+    <input type="submit">
+</div>
+</form>
+<form>
+    <div>
+       <label for="fname">First Name</label>
+       <input type="text" name="First_name" id="fname">
+       <label for="lname">Last Name</label>
+       <input type="text" name="Last_name" id="lname">
+    </div>
+    <div>
+        <label for="address">Adress</label>
+        <input type="text" name="Adress" id="address">
+        <label for="mnumber">Mobile Number</label>
+        <input type="text" name="Mobile number" id="mnumber">
+     </div>
+</form>
+<form>
+    <fieldset>
+        <legend>Basic information</legend>
+       <label for="fname">First Name</label>
+       <input type="text" name="First_name" id="fname">
+       <label for="lname">Last Name</label>
+       <input type="text" name="Last_name" id="lname">
+    </fieldset>
+    <fieldset>
+        <legend>Other information</legend>
+        <label for="address">Adress</label>
+        <input type="text" name="Adress" id="address">
+        <label for="mnumber">Mobile Number</label>
+        <input type="text" name="Mobile number" id="mnumber">
+    </fieldset>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+</form>
+<!--seo tags(search engine otimazation)-->
+
+
+</body>
+</html> 
